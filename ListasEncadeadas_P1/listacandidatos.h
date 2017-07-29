@@ -5,6 +5,7 @@ class ListaCandidatos
 {
 public:
     NoCandidato *head;
+
     ListaCandidatos()
     {
         this->head = NULL;
@@ -22,13 +23,30 @@ public:
     {
         int tam = 0;
 
-            NoCandidato *aux = head.next;
+        NoCandidato *aux = head;
         while(aux != NULL)
         {
             tam++;
-            NoCandidato *aux = aux.next;
+            aux = aux->next;
 
         }
+        return tam;
 
+    }
+
+    string toString()
+    {
+        stringstream stream;
+        NoCandidato *aux = this->head;
+        if(!this->tamanho())
+        {
+            stream << "0";
+        }
+        else
+        {
+            stream << aux->toString();
+        }
+
+        return stream.str();
     }
 };
