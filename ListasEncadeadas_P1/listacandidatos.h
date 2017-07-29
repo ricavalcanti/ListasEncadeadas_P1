@@ -7,7 +7,7 @@ public:
     NoCandidato *head;
     ListaCandidatos()
     {
-        this->head =NULL;
+        this->head = NULL;
     }
 
     bool estaVazia()
@@ -21,5 +21,14 @@ public:
     int tamanho()
     {
         int tam = 0;
+
+            NoCandidato *aux = head.next;
+        while(aux != NULL)
+        {
+            tam++;
+            NoCandidato *aux = aux.next;
+
+        }
+
     }
 };
