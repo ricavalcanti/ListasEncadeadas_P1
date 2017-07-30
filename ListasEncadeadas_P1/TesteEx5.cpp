@@ -9,7 +9,7 @@ void test(ListaCandidatos* l, string nome, string sobrenome){
     cout << "remocao feita; nova lista: " << endl;
   }
   else{
-    cout << "remocao nao realizada, " << nome << " " << sobrenome << " nao se encontra na lista" << endl; 
+    cout << "remocao nao realizada, " << nome << " " << sobrenome << " nao se encontra na lista" << endl;
   }
 
 };
