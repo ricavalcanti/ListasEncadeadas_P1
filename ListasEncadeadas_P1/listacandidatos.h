@@ -89,4 +89,13 @@ public:
         }
         return false;
     }
+    void filtrarCandidatos(int nota)
+    {
+        //filtar candidatos aqui de acordo com a nota
+        //liberar espaços de memoria dos nós com candidatos com a nota abaixo da esperada
+    }
+    void concatena(ListaCandidatos* outraLista)
+    {
+        //concatenar as listas adicionando os nós da lista outraLista no final da autual lista
+    }
 };

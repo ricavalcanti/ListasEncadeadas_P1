@@ -2,7 +2,7 @@
 #include"ListaCandidatos.h"
 
 using namespace std;
-/*
+
 int main(){
 
   ListaCandidatos* lista1 = new ListaCandidatos("candidatsCentre.txt");
@@ -24,4 +24,3 @@ int main(){
   cout << "lista de " << lista3->tamanho() << " candidatos: " << lista3->toString() << endl << endl;
 
 }
-*/

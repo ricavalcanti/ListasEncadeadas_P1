@@ -2,7 +2,7 @@
 #include "ListaCandidatos.h"
 
 using namespace std;
-
+/*
 int main(){
 
   ListaCandidatos* lista = new ListaCandidatos();
@@ -12,4 +12,5 @@ int main(){
   lista->adicioneComoHead(new Candidato("HADY Jacques 7"));
   cout << "lista de " << lista->tamanho() << " candidatos: " << lista->toString()<< endl;
 }
+*/
 
