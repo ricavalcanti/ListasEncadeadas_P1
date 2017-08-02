@@ -9,15 +9,11 @@ using namespace std;
 class ListaCandidatos
 {
 public:
-    NoCandidato *head;
+    NoCandidato *head=NULL;
 
-    ListaCandidatos()
-    {
-        this->head = NULL;
-    }
     ListaCandidatos(const string &nome_arq)
     {
-        ifstream arq(nome_arq);
+        ifstream arq(nome_arq.c_str());
         string dados;
 
         arq >> dados;
