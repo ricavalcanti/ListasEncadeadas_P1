@@ -70,11 +70,11 @@
 	<cstring>
 	<sstream>
 
-1501681106 source:c:\users\daniel\documents\github\listasencadeadas_p1\listasencadeadas_p1\testeex3b.cpp
+1501683524 source:c:\users\daniel\documents\github\listasencadeadas_p1\listasencadeadas_p1\testeex3b.cpp
 	<iostream>
 	"ListaCandidatos.h"
 
-1501683300 c:\users\daniel\documents\github\listasencadeadas_p1\listasencadeadas_p1\listacandidatos.h
+1501683574 c:\users\daniel\documents\github\listasencadeadas_p1\listasencadeadas_p1\listacandidatos.h
 	<fstream>
 	<cstring>
 	<iostream>
@@ -91,7 +91,11 @@
 	<iostream>
 	"ListaCandidatos.h"
 
-1501683234 source:c:\users\daniel\documents\github\listasencadeadas_p1\listasencadeadas_p1\testeex5.cpp
+1501683467 source:c:\users\daniel\documents\github\listasencadeadas_p1\listasencadeadas_p1\testeex5.cpp
+	<iostream>
+	"ListaCandidatos.h"
+
+1501683518 source:c:\users\daniel\documents\github\listasencadeadas_p1\listasencadeadas_p1\testeex6.cpp
 	<iostream>
 	"ListaCandidatos.h"
 

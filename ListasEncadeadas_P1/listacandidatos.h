@@ -10,7 +10,7 @@ class ListaCandidatos
 {
 public:
     NoCandidato *head=NULL;
-
+    ListaCandidatos(){}
     ListaCandidatos(const string &nome_arq)
     {
         ifstream arq(nome_arq.c_str());

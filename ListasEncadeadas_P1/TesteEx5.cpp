@@ -13,7 +13,7 @@ void test(ListaCandidatos* l, string nome, string sobrenome){
   }
 
 };
-
+/*
 int main(){
 
   ListaCandidatos* lista = new ListaCandidatos("candidatsBourgogne.txt");
@@ -34,3 +34,4 @@ int main(){
   cout << "lista de " << lista->tamanho() << " candidatos: " << lista->toString() << endl << endl;
 
 }
+*/
