@@ -1,0 +1,101 @@
+# depslib dependency file v1.0
+1501333001 source:c:\users\ricjo\documents\github\listasencadeadas_p1\listasencadeadas_p1\listasencadeadas_p1\testeex3a.cpp
+	<iostream>
+	"ListaCandidatos.h"
+
+1501365691 c:\users\ricjo\documents\github\listasencadeadas_p1\listasencadeadas_p1\listasencadeadas_p1\listacandidatos.h
+	"Candidato.h"
+	"nocandidato.h"
+
+1501333001 c:\users\ricjo\documents\github\listasencadeadas_p1\listasencadeadas_p1\listasencadeadas_p1\candidato.h
+	<cstring>
+	<sstream>
+
+1501333002 c:\users\ricjo\documents\github\listasencadeadas_p1\listasencadeadas_p1\listasencadeadas_p1\nocandidato.h
+	<iostream>
+	<cstring>
+	<sstream>
+	"candidato.h"
+
+1501333001 source:c:\users\ricjo\documents\github\listasencadeadas_p1\listasencadeadas_p1\listasencadeadas_p1\testeex3b.cpp
+	<iostream>
+	"ListaCandidatos.h"
+
+1501333001 source:c:\users\ricjo\documents\github\listasencadeadas_p1\listasencadeadas_p1\listasencadeadas_p1\testeex2.cpp
+	<iostream>
+	"ListaCandidatos.h"
+
+1501422428 source:c:\users\josé tobias\desktop\ufrn\6ºsemestre\estruturas de dados\listasencadeadas_p1-master\listasencadeadas_p1\testeex3b.cpp
+	<iostream>
+	"ListaCandidatos.h"
+
+1501424308 c:\users\josé tobias\desktop\ufrn\6ºsemestre\estruturas de dados\listasencadeadas_p1-master\listasencadeadas_p1\listacandidatos.h
+	<fstream>
+	<cstring>
+	<iostream>
+	"Candidato.h"
+	"nocandidato.h"
+
+1501351314 c:\users\josé tobias\desktop\ufrn\6ºsemestre\estruturas de dados\listasencadeadas_p1-master\listasencadeadas_p1\candidato.h
+	<cstring>
+	<sstream>
+
+1501351314 c:\users\josé tobias\desktop\ufrn\6ºsemestre\estruturas de dados\listasencadeadas_p1-master\listasencadeadas_p1\nocandidato.h
+	<iostream>
+	<cstring>
+	<sstream>
+	"candidato.h"
+
+1501422452 source:c:\users\josé tobias\desktop\ufrn\6ºsemestre\estruturas de dados\listasencadeadas_p1-master\listasencadeadas_p1\testecandidato.cpp
+	<cstring>
+	<fstream>
+	<iostream>
+	"Candidato.h"
+
+1501424094 source:c:\users\josé tobias\desktop\ufrn\6ºsemestre\estruturas de dados\listasencadeadas_p1-master\listasencadeadas_p1\testeex4.cpp
+	<iostream>
+	"ListaCandidatos.h"
+
+1501424094 source:c:\users\josé tobias\desktop\ufrn\6ºsemestre\estruturas de dados\listasencadeadas_p1-master\listasencadeadas_p1\testeex5.cpp
+	<iostream>
+	"ListaCandidatos.h"
+
+1501681106 source:c:\users\daniel\documents\github\listasencadeadas_p1\listasencadeadas_p1\testecandidato.cpp
+	<cstring>
+	<fstream>
+	<iostream>
+	"Candidato.h"
+
+1501681106 c:\users\daniel\documents\github\listasencadeadas_p1\listasencadeadas_p1\candidato.h
+	<cstring>
+	<sstream>
+
+1501683796 source:c:\users\daniel\documents\github\listasencadeadas_p1\listasencadeadas_p1\testeex3b.cpp
+	<iostream>
+	"ListaCandidatos.h"
+
+1501690756 c:\users\daniel\documents\github\listasencadeadas_p1\listasencadeadas_p1\listacandidatos.h
+	<fstream>
+	<cstring>
+	<iostream>
+	"Candidato.h"
+	"nocandidato.h"
+
+1501689662 c:\users\daniel\documents\github\listasencadeadas_p1\listasencadeadas_p1\nocandidato.h
+	<iostream>
+	<cstring>
+	<sstream>
+	"candidato.h"
+
+1501681106 source:c:\users\daniel\documents\github\listasencadeadas_p1\listasencadeadas_p1\testeex4.cpp
+	<iostream>
+	"ListaCandidatos.h"
+
+1501690602 source:c:\users\daniel\documents\github\listasencadeadas_p1\listasencadeadas_p1\testeex5.cpp
+	<iostream>
+	"ListaCandidatos.h"
+
+1501690606 source:c:\users\daniel\documents\github\listasencadeadas_p1\listasencadeadas_p1\testeex6.cpp
+	<iostream>
+	"ListaCandidatos.h"
+
