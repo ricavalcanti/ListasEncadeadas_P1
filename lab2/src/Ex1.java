@@ -21,38 +21,55 @@ class Mergesort {
                                      LinkedList<Integer> l2) {
         int contl1 = 0;
         int contl2 = 0;
+        int n = 0,fim = 0;
         LinkedList<Integer> l = new LinkedList<Integer>();
-        while(contl1 != l1.size() || contl2 != l2.size())
+        while(contl1 < l1.size() || contl2 < l2.size())
         {
-            if(l1.get(contl1) < l2.get(contl2))
-            {
-                l.add(l1.get(contl1));
-                contl1++;
-            }
-            else
-            {
-                l.add(l2.get(contl2));
-                contl2++;
-            }
+        	if(contl1 < l1.size() && contl2 < l2.size())
+        	{        		
+	            if(l1.get(contl1) < l2.get(contl2))
+	            {
+	                l.add(l1.get(contl1));
+	                contl1++;
+	            }
+	            else
+	            {
+	                l.add(l2.get(contl2));
+	                contl2++;
+	            }
+        	}
+        	else
+        	{
+        		if(contl1 == l1.size() && contl2 != l2.size())
+                {
+                    l.add(l2.get(contl2));
+                    contl2++;
+                }
+                else
+                {
+                    l.add(l1.get(contl1));
+                    contl1++;
+                }
+        	}
         }
         return l;
     }
 
     static LinkedList<Integer> mergesort(LinkedList<Integer> l) {
-    	if(l.size() != 1)
+    	if(l.size() > 1)
     	{
 	    	LinkedList<Integer> l1 = new LinkedList<Integer>();
 	    	LinkedList<Integer> l2 = new LinkedList<Integer>();
 	    	split(l,l1,l2);
-	    	mergesort(l1);
-	    	mergesort(l2);
+	    	l1 = mergesort(l1);
+	    	l2 = mergesort(l2);
 	    	return merge(l1,l2);
     	}
     	return l;
     }
 }
 
-// A classe Ex1 é fornecida fournie, para testar o código de Mergesort
+// A classe Ex1 � fornecida fournie, para testar o c�digo de Mergesort
 public class Ex1 {
 
     static boolean is_sorted(LinkedList<Integer> l) {
@@ -65,7 +82,7 @@ public class Ex1 {
         return true;
     }
 
-    static final int M = 10; // os elementos estão entre 0..M-1
+    static final int M = 10; // os elementos est�o entre 0..M-1
 
     static int[] occurrences(LinkedList<Integer> l) {
         int[] occ = new int[M];
@@ -166,3 +183,4 @@ public class Ex1 {
     }
 
 }
+
