@@ -33,11 +33,7 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="Candidato.h" />
-		<Unit filename="TesteCandidato.cpp" />
-		<Unit filename="TesteEx3b.cpp" />
-		<Unit filename="TesteEx4.cpp" />
-		<Unit filename="TesteEx5.cpp" />
-		<Unit filename="TesteEx6.cpp" />
+		<Unit filename="TesteEx7.cpp" />
 		<Unit filename="listacandidatos.h" />
 		<Unit filename="nocandidato.h" />
 		<Extensions>
