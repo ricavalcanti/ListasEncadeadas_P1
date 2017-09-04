@@ -91,11 +91,25 @@ public:
     }
     void filtrarCandidatos(int nota)
     {
-        //filtar candidatos aqui de acordo com a nota
-        //liberar espaços de memoria dos nós com candidatos com a nota abaixo da esperada
+        NoCandidato *  aux = head;
+        while (aux != NULL) {
+            if (aux->conteudo->nota < nota) {
+                this->remove(aux->conteudo->nome, aux->conteudo->sobrenome);
+            }
+            aux = aux->next;
+        }
     }
-    void concatena(ListaCandidatos* outraLista)
+    void concatena(ListaCandidatos* l)
     {
-        //concatenar as listas adicionando os nós da lista outraLista no final da autual lista
+        NoCandidato * aux = this->head;
+        if (this->head == NULL) {
+            this->head = l->head;
+            return;
+        }
+        while (aux->next != NULL) {
+            aux = aux->next;
+        }
+        aux->next = l->head;
     }
+
 };

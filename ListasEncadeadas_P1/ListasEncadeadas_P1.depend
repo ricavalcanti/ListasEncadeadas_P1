@@ -3,7 +3,7 @@
 	<iostream>
 	"ListaCandidatos.h"
 
-1501798616 c:\users\ricjo\documents\github\listasencadeadas_p1\listasencadeadas_p1\listasencadeadas_p1\listacandidatos.h
+1504488829 c:\users\ricjo\documents\github\listasencadeadas_p1\listasencadeadas_p1\listasencadeadas_p1\listacandidatos.h
 	<fstream>
 	<cstring>
 	<iostream>
@@ -117,6 +117,10 @@
 	"ListaCandidatos.h"
 
 1501798616 source:c:\users\ricjo\documents\github\listasencadeadas_p1\listasencadeadas_p1\listasencadeadas_p1\testeex6.cpp
+	<iostream>
+	"ListaCandidatos.h"
+
+1504488255 source:c:\users\ricjo\documents\github\listasencadeadas_p1\listasencadeadas_p1\listasencadeadas_p1\testeex7.cpp
 	<iostream>
 	"ListaCandidatos.h"
 

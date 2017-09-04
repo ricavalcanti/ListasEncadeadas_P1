@@ -13,9 +13,9 @@ int main(){
   cout << "concatenacao" << endl;
 
   lista->concatena(lista1);
-  
+
   cout << "lista de " << lista->tamanho() << " candidatos: " << lista->toString() << endl << endl;
 
 
-
+    return 0;
 }
