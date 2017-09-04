@@ -10,25 +10,18 @@ class DutchFlag {
 
     static void dutch_flag(int[] a) {
         int b = 0,i = 0;
-        int r = a.length -1;
+        int r = a.length;
         while(i<r)
         {
-        	if(a[i] == 0)
-        	{
-        		swap(a,i,b);
-        		i++;
-        		b++;
-        	}
-        	else if(a[i] == 1)
-        	{
-        		i++;
-        	}
-        	else
-        	{
-        		swap(a,i,r);
-        		r--;
-        		i++;
-        	}
+        	if (a[i] == 0) {
+				swap(a, b, i);
+				b++;
+			}  else if (a[i] == 2) {
+				swap(a, r-1, i);
+				r--;
+				i--;
+			}
+			i++;
         }
     }
 
